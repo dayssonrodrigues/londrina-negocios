@@ -1,0 +1,8 @@
+{
+  "name": "Gestor86 negócios",
+  "description": "Gestor86",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
