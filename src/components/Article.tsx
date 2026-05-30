@@ -19,23 +19,23 @@ export function Article() {
 
         {/* Title */}
         <h1 className="font-poppins text-3xl md:text-4xl lg:text-5xl font-bold text-black leading-tight text-center mb-6">
-          Vila Galé anuncia adesão a novo complexo hoteleiro lançado na região metropolitana
+          Londrina recebe Feira do Empreendedor com foco em conhecimento, conexões e pequenos negócios
         </h1>
 
         {/* Subtitle */}
         <p className="font-inter text-neutral-500 text-lg md:text-xl font-light text-center mb-8">
-          Maior rede de resorts do Brasil vai investir R$ 200 milhões em dois hotéis no polo turístico de desenvolvimento de Londrina
+          Evento gratuito do Sebrae/PR será realizado no Parque Ney Braga, com palestras de nomes nacionais, oportunidades e programação voltada ao empreendedorismo
         </p>
 
         {/* Meta Info */}
         <div className="flex flex-col items-center gap-3 mb-8 text-sm">
           <div className="flex items-center gap-2 text-primary font-bold">
             <User size={16} />
-            <span>Robert Pedrosa e Dulce Luz - contato@londrinanegocios.com.br</span>
+            <span>@londrinanegocios</span>
           </div>
           <div className="flex items-center gap-4 text-black font-bold">
-            <span>30/05/2026 - 09h31</span>
-            <span className="flex items-center gap-2"><Clock size={16} /> Tempo de leitura: 7 min</span>
+            <span>7 de maio de 2026</span>
+            <span className="flex items-center gap-2"><Clock size={16} /> 3 minutos de leitura</span>
           </div>
         </div>
 
@@ -63,37 +63,67 @@ export function Article() {
 
         {/* Content */}
         <div className="w-full font-inter text-neutral-800 text-lg leading-relaxed space-y-6">
-          <p>
-            <span className="float-left text-[80px] font-bold font-poppins leading-[0.8] pr-3 pt-2 text-black">C</span>
-            om a chegada da maior rede de resorts do Brasil, o Vila Galé, ao Paraná, o Governo do Estado anunciou a construção de um novo polo turístico na região de Londrina para atrair outros resorts, hotéis, pousadas e empreendimentos de lazer em larga escala. Batizado de Londrina Resorts, o projeto pretende urbanizar uma grande área metropolitana, criando uma espécie de distrito turístico voltado à expansão da atividade econômica.
-          </p>
-          <p>
-            O lançamento do Londrina Resorts aconteceu nesta quarta-feira (27), em um restaurante, com a presença do governador, do dono do Grupo Vila Galé, Jorge Rebelo de Almeida, de empresários do setor turístico e imobiliário e gestores públicos.
-          </p>
-          
           <img 
-            src="https://piauinegocios.com.br/thumbs.php?w=600&imagem=images/noticias/3695/WhatsApp-Image-2026-05-21-at-11.22.15.jpeg" 
-            alt="Reunião" 
-            className="w-full my-8"
+            src="https://i2.wp.com/blog.londrina.pr.gov.br/wp-content/uploads/2026/05/07.05.26/Feira-do-Empreendedor-Sebrae-2026-foto-Thom%C3%A9-Lopes-1.jpg?resize=1170%2C610&ssl=1" 
+            alt="Feira do Empreendedor" 
+            className="w-full mb-8 rounded"
           />
 
-          <h3 className="font-poppins font-bold text-2xl mt-12 mb-4 text-black">
-            Um distrito turístico planejado
-          </h3>
           <p>
-            O Londrina Resorts nasce como um projeto de urbanização turística planejada. A diretoria explicou que o governo passou o último ano estudando áreas com segurança fundiária e potencial de expansão sustentável.
+            <span className="float-left text-[80px] font-bold font-poppins leading-[0.8] pr-3 pt-2 text-black">O</span>
+            maior evento gratuito para micro e pequenos empreendedores do Estado será realizado no Parque Ney Braga, em Londrina. A Feira do Empreendedor Sebrae ocorre de 6 a 8 de agosto e contará com uma programação voltada à geração de negócios, conhecimento e conexões. As inscrições são gratuitas e já podem ser realizadas no site oficial: <a href="https://sebraepr.com.br/lp/feiralondrina/" className="text-primary hover:underline">https://sebraepr.com.br/lp/feiralondrina/</a>.
+          </p>
+          <p>
+            Um levantamento do Sebrae/PR, com base nos dados da Receita Federal, aponta que 93% dos 117 mil negócios existentes em Londrina são micro e pequenas empresas.
+          </p>
+          <p>
+            O diretor-superintendente da instituição, Vitor Roberto Tioqueta, apontou a relevância da Feira como ferramenta de apoio aos pequenos negócios e reforçou a escolha da região.
+          </p>
+          <p>
+            “Temos o propósito claro de reunir em um só ambiente oportunidades reais para quem empreende ou deseja tirar uma ideia do papel. A realização em Londrina reforça o nosso compromisso de estar cada vez mais ao lado de quem empreende”, afirmou o diretor-superintendente do Sebrae/PR.
+          </p>
+          <p>
+            O prefeito Tiago Amaral destacou a importância da realização do evento para a cidade e toda região.
+          </p>
+          <p>
+            “Um evento como a Feira do Empreendedor do Sebrae é importante não só para Londrina, mas para todos os municípios do Norte do Paraná. Essa é uma oportunidade única para os empreendedores se fortalecerem, adquirirem conhecimento e apoiarem toda a cadeia, o que, consequentemente, alavanca a economia local”, disse o prefeito.
           </p>
 
           <div className="my-8">
             <img 
-              src="https://piauinegocios.com.br/controle/arquivos-25/images/2026/Piranhas.jpg" 
-              alt="Apresentação do Projeto" 
-              className="w-full mb-2"
+              src="https://i2.wp.com/blog.londrina.pr.gov.br/wp-content/uploads/2026/05/07.05.26/Feira-do-Empreendedor-Sebrae-2026-foto-Thom%C3%A9-Lopes-3.jpg?resize=750%2C500&ssl=1" 
+              alt="Feira do Empreendedor" 
+              className="w-full mb-2 rounded"
             />
             <p className="text-center text-sm text-neutral-500 italic">
-               Apresentação do projeto na região de Londrina
+               Foto: Thomé Lopes / Sebrae
             </p>
           </div>
+
+          <p>
+            O presidente do Conselho Superior da Federação das Associações Comerciais e Empresariais do Estado do Paraná (Faciap) e ex-presidente do Conselho Deliberativo Estadual (CDE) do Sebrae/PR, Fernando Moraes, lembrou que o evento concentra diversas ações importantes para o dia a dia do empreendedor.
+          </p>
+          <p>
+            “Já tive a oportunidade de participar de várias edições da Feira do Empreendedor e sei o quanto o evento pode ser importante para guinadas das empresas. É um momento de conexões, contato com instituições parceiras, oportunidades de crédito, negócios com outras empresas e atualização. Tenho certeza que a edição de Londrina será um sucesso e vai atrair um público muito interessante”, afirmou Moraes.
+          </p>
+          <p>
+            “A Feira é uma importante ponte para aproximar o empreendedor às tendências e falar sobre negócios de forma descomplicada. Tocar um negócio nunca é algo individual, mas sim coletivo. O Sebrae/PR faz isso de uma forma exemplar e um evento como esse é, também, uma forma de pensar coletivamente”, destacou o prefeito de Cambé e presidente da Associação dos Municípios do Médio Paranapanema (Amepar), Conrado Scheller.
+          </p>
+
+          <div className="my-8">
+            <img 
+              src="https://i2.wp.com/blog.londrina.pr.gov.br/wp-content/uploads/2026/05/07.05.26/Feira-do-Empreendedor-Sebrae-2026-foto-Thom%C3%A9-Lopes-5.jpeg?resize=750%2C500&ssl=1" 
+              alt="Feira do Empreendedor" 
+              className="w-full mb-2 rounded"
+            />
+            <p className="text-center text-sm text-neutral-500 italic">
+               Foto: Thomé Lopes / Sebrae
+            </p>
+          </div>
+
+          <p>
+            Com agenda diversificada, a Feira do Empreendedor tem como foco as diferentes etapas enfrentadas pelas micro e pequenas empresas, além de conteúdos voltados às pessoas que desejam empreender. Entre as áreas já confirmadas estão quatro arenas do conhecimento, rodadas de negócio e crédito, oportunidades de negócios e tendências.
+          </p>
         </div>
 
         {/* Tags */}
@@ -103,8 +133,8 @@ export function Article() {
              Tags
            </div>
            <div className="flex flex-wrap gap-2">
-             {['Vila Galé', 'polo turístico', 'Londrina', 'Paraná', 'rede de resorts', 'hotéis'].map((tag) => (
-                <span key={tag} className="bg-neutral-100 text-neutral-600 px-4 py-2 text-sm hover:bg-neutral-200 cursor-pointer transition-colors">
+             {['Faciap', 'Prefeitura de Londrina', 'Sebrae/PR'].map((tag) => (
+                <span key={tag} className="bg-neutral-100 text-neutral-600 px-4 py-2 text-sm hover:bg-neutral-200 cursor-pointer transition-colors border border-black/10">
                   {tag}
                 </span>
              ))}
